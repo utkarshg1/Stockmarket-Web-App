@@ -32,4 +32,3 @@ if company_name:
         st.dataframe(daily_df.head())
         fig = client.plot_chart(df=daily_df)
         st.plotly_chart(fig)
-
