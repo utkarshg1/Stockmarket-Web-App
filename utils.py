@@ -2,7 +2,7 @@
 import requests
 import streamlit as st
 import pandas as pd
-from plotly.graph_objects import go
+import plotly.graph_objects as go
 
 class StockAPI:
 
